@@ -1,0 +1,160 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.header {
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.top#logo img{
+  height: 50px;
+  margin-left: 10px;
+}
+
+.top#nav-list {
+  justify-content: flex-end;
+  text-decoration: underline;
+  margin-right: 10px
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  color: seashell;
+}
+
+.main {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission {
+  display: flex;
+  flex-wrap: wrap;
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-text {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+#tea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.tea-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.different-teas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#tea-item img {
+  height: 200px;
+  width: 300px;
+}
+
+#tea-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+#tea-item h4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  flex-direction: column;
+}
+
+.location-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-choice {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 1100px;
+}
+
+.choice-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: auto;
+}
+
+.footer {
+  display: flex;
+  height: 200px;
+}
+
+.footer-text {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
